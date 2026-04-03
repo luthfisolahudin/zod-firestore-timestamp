@@ -1,0 +1,22 @@
+{
+  "name": "@luthfisolahudin/zod-firestore-timestamp",
+  "version": "0.1.0",
+  "description": "Zod schema for Firestore Client SDK and Firestore Server SDK",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zod",
+    "firebase",
+    "firestore",
+    "datetime",
+    "timestamp"
+  ],
+  "author": "Luthfi Solahudin <luthfisolahudin@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "catalog:",
+    "firebase-admin": "catalog:",
+    "zod": "catalog:"
+  }
+}

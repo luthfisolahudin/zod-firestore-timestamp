@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+
+catalog:
+  firebase: ^12.0.0
+  firebase-admin: ^13.0.0
+  zod: ^4.1.0
+
