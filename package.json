@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Zod schema for Firestore Client SDK and Firestore Server SDK",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "pnpm --filter @luthfisolahudin/zod-firestore-timestamp-test run test"
   },
   "keywords": [
     "zod",
@@ -22,5 +22,8 @@
     "firebase": "catalog:",
     "firebase-admin": "catalog:",
     "zod": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
   }
 }
