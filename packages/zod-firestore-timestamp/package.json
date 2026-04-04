@@ -14,9 +14,20 @@
   ],
   "author": "Luthfi Solahudin <luthfisolahudin@outlook.com>",
   "license": "MIT",
+  "main": "src/index.ts",
   "dependencies": {
-    "firebase": "catalog:",
-    "firebase-admin": "catalog:",
     "zod": "catalog:"
+  },
+  "peerDependencies": {
+    "firebase": "catalog:",
+    "firebase-admin": "catalog:"
+  },
+  "peerDependenciesMeta": {
+    "firebase": {
+      "optional": true
+    },
+    "firebase-admin": {
+      "optional": true
+    }
   }
 }
