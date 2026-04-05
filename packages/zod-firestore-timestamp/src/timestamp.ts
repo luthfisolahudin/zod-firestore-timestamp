@@ -20,6 +20,8 @@ export function fromTimestampToDate(value: Timestamp): Date {
 
 /** Is `value` a Firestore Timestamp without direct dependencies to either Firestore SDK. */
 export const TimestampSchema = /* @__PURE__ */ z.custom<Timestamp>((value: any): boolean => {
+  if (!value) return false
+
   const s = value.seconds
   const ns = value.nanoseconds
   const toDate = value.toDate

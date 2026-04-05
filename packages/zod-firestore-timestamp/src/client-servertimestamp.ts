@@ -15,6 +15,8 @@ interface InternalClientFieldValue {
 export function isClientSdkServerTimestamp(
   field: unknown,
 ): field is ClientFieldValue & InternalClientFieldValue {
+  if (!field) return false
+
   const methodName = (field as InternalClientFieldValue)._methodName
 
   return methodName === clientServerTimestampMethodName

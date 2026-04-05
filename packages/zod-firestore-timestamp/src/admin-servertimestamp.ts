@@ -15,6 +15,8 @@ interface InternalAdminFieldValue {
 export function isAdminSdkServerTimestamp(
   field: unknown,
 ): field is AdminFieldValue & InternalAdminFieldValue {
+  if (!field) return false
+
   const methodName = (field as InternalAdminFieldValue).methodName
 
   return methodName === adminServerTimestampMethodName
