@@ -1,27 +1,29 @@
 {
   "name": "@luthfisolahudin/zod-firestore-timestamp-test",
   "version": "0.0.0",
+  "license": "MIT",
+  "author": "Luthfi Solahudin <luthfisolahudin@outlook.com>",
   "scripts": {
     "test": "vitest run"
   },
-  "author": "Luthfi Solahudin <luthfisolahudin@outlook.com>",
-  "license": "MIT",
   "dependencies": {
+    "@date-fns/tz": "^1",
+    "@date-fns/utc": "^1",
     "@luthfisolahudin/zod-firestore-timestamp": "workspace:",
-    "firebase-v9-0": "npm:firebase@~9.0.0",
-    "firebase-v9-x": "npm:firebase@^9.0.0",
+    "firebase-admin-v11-0": "npm:firebase-admin@~11.0.0",
+    "firebase-admin-v11-x": "npm:firebase-admin@^11.0.0",
+    "firebase-admin-v12-0": "npm:firebase-admin@~12.0.0",
+    "firebase-admin-v12-x": "npm:firebase-admin@^12.0.0",
+    "firebase-admin-v13-0": "npm:firebase-admin@~13.0.0",
+    "firebase-admin-v13-x": "npm:firebase-admin@^13.0.0",
     "firebase-v10-0": "npm:firebase@~10.0.0",
     "firebase-v10-x": "npm:firebase@^10.0.0",
     "firebase-v11-0": "npm:firebase@~11.0.0",
     "firebase-v11-x": "npm:firebase@^11.0.0",
     "firebase-v12-0": "npm:firebase@~12.0.0",
     "firebase-v12-x": "npm:firebase@^12.0.0",
-    "firebase-admin-v11-0": "npm:firebase-admin@~11.0.0",
-    "firebase-admin-v11-x": "npm:firebase-admin@^11.0.0",
-    "firebase-admin-v12-0": "npm:firebase-admin@~12.0.0",
-    "firebase-admin-v12-x": "npm:firebase-admin@^12.0.0",
-    "firebase-admin-v13-0": "npm:firebase-admin@~13.0.0",
-    "firebase-admin-v13-x": "npm:firebase-admin@^13.0.0"
+    "firebase-v9-0": "npm:firebase@~9.0.0",
+    "firebase-v9-x": "npm:firebase@^9.0.0"
   },
   "devDependencies": {
     "vitest": "catalog:"
