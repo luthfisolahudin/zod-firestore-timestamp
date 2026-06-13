@@ -4,7 +4,7 @@
 
 Targets:
 
-- [ ] Convert native JS Date object <-> Firestore Timestamp using Zod codecs
+- [ ] Convert Firestore Timestamp to native JS Date using Zod
 - [ ] Allow to pass Firestore `serverTimestamp()`
 
 Example use case:
@@ -44,4 +44,3 @@ const doc = DocSchema.parse(docSnap.data())
 //    ^ { createdAt: Date }
 // Auto convert from Firestore Timestamp to native JS Date using the same Zod schema
 ```
-
